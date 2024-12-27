@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    overflow-y: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    color: rgb(255, 254, 253);
+    font-size: 50px;
+}
+h2{
+    color: gold ;
+    font-size: 30px;
+}
+h3{
+    color: rgb(255, 255, 98);
+    font-size: 20px;
+}
+
+.box_img{
+    background-color: aqua;
+    margin: 0 auto;
+    width: 96%;
+    height: 700px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+.img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+}
+
+
+.box_vdo{
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 2rem;
+}
+.vdo{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+}
+.story {
+    display: flex;
+    gap: 1rem; /* ระยะห่างระหว่างคอลัมน์ */
+    margin: 0 auto;
+    width: 96%;
+    height: 400px; /* ความสูงของกรอบ */
+    margin-top: 1rem;
+    border-radius: 10px;
+
+}
+
+.story_art {
+    width: 100%; /* ทำให้ภาพขยายเต็มคอลัมน์ */
+    height: 100%;
+    background-color: brown;
+    border-radius: 10px;
+    /* margin-left: 28rem; */
+    top: 0;
+    right: 0;
+}
+
+.story_art img {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ขยายภาพให้เต็มกรอบโดยไม่ผิดสัดส่วน */
+    border-radius: 2px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column; /* เนื้อหาภายในเป็นแนวตั้ง */
+    justify-content: center; /* จัดข้อความให้อยู่กลาง */
+    margin-left: 1rem; /* ระยะห่างจากขอบ */
+}
+
+.text_sup {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 0rem;
+    width: 50%;
+    padding: 1rem;
+}
+
+.text_color {
+    color: rgb(68, 28, 57);
+}
+
+.text_minisup {
+    margin-left: 0.7rem;
+}

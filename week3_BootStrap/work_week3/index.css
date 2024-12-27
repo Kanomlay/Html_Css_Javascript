@@ -1,0 +1,46 @@
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-image: url(https://images.unsplash.com/photo-1723227300708-1ff74add4195?q=80&w=2021&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.card {
+    border-radius: 2rem;
+}
+
+.blur-card {
+    background-color: rgba(255, 255, 255, 0.3);
+    /* สีขาวโปร่งใส */
+    backdrop-filter: blur(10px);
+    /* เบลอพื้นหลังด้านหลัง */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* เส้นขอบโปร่งใส */
+    border-radius: 15px;
+    /* ขอบมน */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* เงา */
+}
+
+.btn {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary {
+    background-color: green;
+    box-shadow: greenyellow 5px 5px rgba(0, 5, 2, 0.2)
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+a:hover{
+    color: yellow;
+}
